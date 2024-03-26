@@ -10,7 +10,7 @@
 	dinhdanh.nguyen@sjsu.com
 	jeffrey.n.chan@sjsu.edu
 ### Issues: 
-    User Experience, Security, Speed Optimization
+    User Experience, Security, Speed Optimization, Content Moderation
 ### Solution:
     -   Creating content that educates, informs, or entertains. 
     -   Conducting original research or analyzing existing data to provide in-depth insights into specific issues.
