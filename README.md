@@ -10,7 +10,7 @@
 	jeffrey.n.chan@sjsu.edu
 
 ## Issues: 
-    User Experience, Security, Speed Optimization
+- User Experience, Security, Speed Optimization
 
 ## Solution:
 - Creating content that educates, informs, or entertains. 
