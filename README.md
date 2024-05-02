@@ -40,7 +40,19 @@ This section should provide detailed instructions on how to get started with the
   ```
   docker compose up --build
   ```
-3. Stop and remove application and postgres container
+3. Initial configuration
+  - MacOS and Linux:
+    ```
+    ./initConfig.sh
+    ```
+  - Window:
+
+    Install [GIT Bash](https://git-scm.com/downloads), open it and run:
+    ```
+    ./initConfig.sh
+    ```
+
+4. Stop and remove application and postgres container
 
   ```
   docker compose down
