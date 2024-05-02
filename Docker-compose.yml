@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+
+  postgresqldb:
+    container_name: postgresqldb
+    image: postgres
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5433:5432"
+    networks:
+      - cs122_network
+    healthcheck:
+        test: ["CMD-SHELL", "pg_isready -U postgres"]
+        interval: 10s
+        timeout: 30s
+        retries: 5
+
+  blogapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cs122
+    ports:
+      - "8000:8000"
+    networks:
+      - cs122_network
+    environment:
+      USER: postgres
+      PASSWORD: password
+      HOST: postgresqldb
+      PORT: 5432
+    depends_on:
+      postgresqldb:
+        condition: service_healthy
+
+
+networks:
+  cs122_network:
+    driver: bridge

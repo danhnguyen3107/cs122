@@ -28,33 +28,56 @@
 
 This section should provide detailed instructions on how to get started with the project. This includes installing dependencies, setting up the environment, and running the project.
 
-
 ### Installation
 
 1. Clone the repo
 
   ```
-   git clone https://github.com/danhnguyen3107/cs122.git
+  git clone https://github.com/danhnguyen3107/cs122.git
   ```
-
-
-2. (Optional) Create a [virtual environment](https://docs.python.org/3/tutorial/venv.html) 
+2. Create Docker image and container of application and postgres database
 
   ```
-    python -m venv name_of_virtualenv
+  docker compose up --build
+  ```
+3. Initial configuration
+  - MacOS and Linux:
+    ```
+    ./initConfig.sh
+    ```
+  - Window:
+
+    Install [GIT Bash](https://git-scm.com/downloads), open it and run:
+    ```
+    ./initConfig.sh
+    ```
+
+4. Stop and remove application and postgres container
+
+  ```
+  docker compose down
+  ```
+### ALternative Installation
+
+You can run the application directly; however, it requires configuring the database in the `BlogApp/settings.py` directory. It is recommended to use a PostgreSQL database.
+
+1. Create a [virtual environment](https://docs.python.org/3/tutorial/venv.html) 
+
+  ```
+  python -m venv name_of_virtualenv
   ```
 
   ``` 
-    source name_of_virtualenv/bin/activate (for Mac & Linux)
+  source name_of_virtualenv/bin/activate (for Mac & Linux)
   ```
 
   OR
 
   ``` 
-    name_of_virtualenv\Scripts\activate (for Window)
+  name_of_virtualenv\Scripts\activate (for Window)
   ```
 
-3. Install dependencies
+2. Install dependencies
 
   1. Navigate to the folder that contains requirements.txt:
 
@@ -64,10 +87,10 @@ This section should provide detailed instructions on how to get started with the
    pip install -r requirements.txt
    ```
 
-4. Run the application:
+3. Run the application:
   > **Note:** Make sure you are in the folder contains the file called "manage.py"
   ```
-    python manage.py runserver
+  python manage.py runserver
   ```
 
 
