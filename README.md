@@ -9,12 +9,15 @@
 	dinhdanh.nguyen@sjsu.com
 	jeffrey.n.chan@sjsu.edu
 
+## Description
+In the contemporary digital landscape, blogs serve as a vital medium for information dissemination, personal expression, and community engagement. The database design project centers on the development of a comprehensive database system, with Python and Django at its core, to empower content creators and readers alike. The overarching goal is to create a robust and scalable infrastructure capable of handling the increasing volume of users and content while ensuring data integrity and top-notch performance.
+
 ## Issues: 
 - User Experience, Security, Speed Optimization
 
 ## Solution:
 - Creating content that educates, informs, or entertains. 
--   Conducting original research or analyzing existing data to provide in-depth insights into specific issues.
+- Conducting original research or analyzing existing data to provide in-depth insights into specific issues.
 
 ## High-level design:
 -   Registration: a page user can create their account
