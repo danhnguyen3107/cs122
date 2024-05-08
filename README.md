@@ -82,9 +82,9 @@ You can run the application directly; however, it requires configuring the datab
 
 2. Install dependencies
 
-  1. Navigate to the folder that contains requirements.txt:
+  	1. Navigate to the folder that contains requirements.txt:
 
-  2. Install the dependencies:
+  	2. Install the dependencies:
 
    ```
    pip install -r requirements.txt
