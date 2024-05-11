@@ -96,5 +96,38 @@ You can run the application directly; however, it requires configuring the datab
   python manage.py runserver
   ```
 
+## Snapshot
+
+  ### 1. Landing Page
+
+  ![CHESEE!](Snapshot/Landing.png)
+  
+
+  ### 2. Signup Page
+
+  ![CHESEE!](Snapshot/Signup.png)
 
 
+  ### 3. Login Page
+
+  ![CHESEE!](Snapshot/Login.png)
+
+
+  ### 4. Homepage
+
+  ![CHESEE!](Snapshot/Home.png)
+
+
+  ### 5. Creating Post Page
+
+  ![CHESEE!](Snapshot/CreatePost.png)
+
+
+  ### 6. Post Page
+
+  ![CHESEE!](Snapshot/Post.png)
+
+
+  ### 7. Profile Page
+
+  ![CHESEE!](Snapshot/Profile.png)
