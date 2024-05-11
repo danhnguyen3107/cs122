@@ -85,6 +85,10 @@ You can run the application directly; however, it requires configuring the datab
   	1. Navigate to the folder that contains requirements.txt:
 
   	2. Install the dependencies:
+  
+   ```
+   python manage.py migrate
+   ``` 
 
    ```
    pip install -r requirements.txt
