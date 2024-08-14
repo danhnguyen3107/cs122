@@ -34,6 +34,7 @@ services:
       PASSWORD: password
       HOST: postgresqldb
       PORT: 5432
+      DBNAME: mydb
     # entrypoint: sh -c "sh initConfig_2.sh"
     depends_on:
       postgresqldb:
