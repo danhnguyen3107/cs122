@@ -10,7 +10,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: ./postgre_v # Replace with the absolute path to your local directory
+    path: /home/danh/postgre_v # Replace with the absolute path to your local directory
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -18,4 +18,4 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - your-node-name # Replace with your node name
+          - worker1 # Replace with your node name

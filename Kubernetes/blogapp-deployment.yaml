@@ -52,5 +52,5 @@ spec:
                   - key: kubernetes.io/hostname
                     operator: In
                     values:
-                      - worker-node-1  # Replace with your first worker node hostname
+                      - worker1  # Replace with your first worker node hostname
 

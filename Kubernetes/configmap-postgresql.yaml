@@ -6,6 +6,6 @@ metadata:
 
 data:
   HOST: postgres-service
-  PORT: 5432
+  PORT: '5432'
   DBNAME: mydb
 
